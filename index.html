@@ -13,7 +13,7 @@
 <body>
     <!-- Header -->
 <img src='resized_profile_pic.jpeg' alt='GAGANDEEP SINGH BHASIN' class='profile-pic'>
-    <header>
+    <header data-aos="fade-down">
         <h1>GAGANDEEP SINGH BHASIN</h1>
         <p>Mumbai, Maharashtra, India</p>
         <p>Email: <a href="mailto:bhasin.gagandeep@gmail.com">bhasin.gagandeep@gmail.com</a></p>
@@ -44,17 +44,17 @@
     <section id="experience">
         <h2>Experience</h2>
         
-<div class="job">
+<div class="job" data-aos="fade-up">
     <h3>Head of Business Information & Intelligence</h3>
     <p class="company">Bharti AXA Life Insurance</p>
     <p>Details from the resume...</p>
 </div>
-<div class="job">
+<div class="job" data-aos="fade-up">
     <h3>Team Leader</h3>
     <p class="company">Integrascreen</p>
     <p>Details from the resume...</p>
 </div>
-<div class="job">
+<div class="job" data-aos="fade-up">
     <h3>Quality Coach</h3>
     <p class="company">Stream AsiaPacific</p>
     <p>Details from the resume...</p>
@@ -66,11 +66,11 @@
     <section id="education">
         <h2>Academics & Accreditation</h2>
         
-<div class="degree">
+<div class="degree" data-aos="fade-up">
     <h3>Post Graduate Certificate in Business Management</h3>
     <p class="institution">Xavier School of Management (XLRI), Jamshedpur, India, 2010</p>
 </div>
-<div class="degree">
+<div class="degree" data-aos="fade-up">
     <h3>Post Graduate Certificate in Artificial Intelligence and Deep Learning</h3>
     <p class="institution">Indian Institute of Technology, Ropar, India, 2022</p>
 </div>
@@ -84,6 +84,15 @@
 
     <!-- Link to JS (will add later) -->
     <script src="./scripts.js"></script>
+<!-- AOS (Animate On Scroll) Library -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+</script>
+
 </body>
 
 </html>

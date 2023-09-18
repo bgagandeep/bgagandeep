@@ -95,3 +95,38 @@ a:hover {
         width: 120px;
     }
 }
+
+* {
+    transition: all 0.3s ease-out;
+}
+
+/* Animation classes for fade-in effects */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn ease 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effects for links */
+a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effects for job and degree sections */
+.job:hover, .degree:hover {
+    transform: scale(1.02);
+}
