@@ -28,7 +28,7 @@ header, section, footer {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #4A90E2;
     color: #fff;
     border-radius: 10px;
 }
@@ -51,19 +51,19 @@ h2, h3 {
 }
 
 a {
-    color: #007BFF;
+    color: #4A90E2;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #357ABD;
 }
 
 .job, .degree {
     margin-top: 20px;
     padding: 10px;
-    border-left: 4px solid #007BFF;
+    border-left: 4px solid #4A90E2;
     transition: background-color 0.3s;
 }
 
